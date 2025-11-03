@@ -75,3 +75,60 @@
    </Hotel>
    <Hotel Rating="4.6">
       <Name>JW Marriott Desert Ridge</Name>
+      <Phone allowed="25">480-293-5000</Phone>
+      <Phone>877-622-3140</Phone>
+      <Address NearestAirport="Scottsdale Airport">
+         <Number>5350</Number>
+         <Street>E Marriott Dr</Street>
+         <City>Phoenix</City>
+         <State>AZ</State>
+         <Zip>85054</Zip>
+      </Address>
+   </Hotel>
+   <Hotel Rating="3.9">
+      <Name>Courtyard Tempe Downtown</Name>
+      <Phone>480-966-2800</Phone>
+      <Address NearestAirport="Sky Harbor">
+         <Number>601</Number>
+         <Street>S Ash Ave</Street>
+         <City>Tempe</City>
+         <State>AZ</State>
+         <Zip>85281</Zip>
+      </Address>
+   </Hotel>
+   <Hotel Rating="4.4">
+      <Name>The Phoenician</Name>
+      <Phone>480-941-8200</Phone>
+      <Phone>800-888-8234</Phone>
+      <Address NearestAirport="Scottsdale Airport">
+         <Number>6000</Number>
+         <Street>E Camelback Rd</Street>
+         <City>Scottsdale</City>
+         <State>AZ</State>
+         <Zip>85251</Zip>
+      </Address>
+   </Hotel>
+   <Hotel>
+      <Name>Hampton Inn Phoenix Airport North</Name>
+      <Phone allowed="30">602-453-2500</Phone>
+      <Address NearestAirport="Sky Harbor">
+         <Number>4234</Number>
+         <Street>S 48th St</Street>
+         <City>Phoenix</City>
+         <State>AZ</State>
+         <Zip>85040</Zip>
+      </Address>
+   </Hotel>
+   <Hotel Rating="4.1">
+      <Name>DoubleTree Phoenix Tempe</Name>
+      <Phone>480-967-1441</Phone>
+      <Phone>800-222-8733</Phone>
+      <Address NearestAirport="Sky Harbor">
+         <Number>2100</Number>
+         <Street>S Priest Dr</Street>
+         <City>Tempe</City>
+         <State>AZ</State>
+         <Zip>85282</Zip>
+      </Address>
+   </Hotel>
+</Hotels>
