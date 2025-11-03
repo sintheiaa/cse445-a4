@@ -3,7 +3,7 @@
   <Hotel Rating="4.2">
     <Name>Westin</Name>
     <Phone Number="11">480-968-8885</Phone>
-    <Phone Number="12">800-937-8461</Phone>
+    <Phone Number="11">800-937-8461</Phone>
     <Address NearestAirport="Sky Harbor">
       <Number>11</Number>
       <Street>E 7th St</Street>
@@ -15,7 +15,7 @@
   
   <Hotel Rating="4.5">
     <Name>Hilton Garden Inn</Name>
-    <Phone Number="1">480-775-7400</Phone>
+    <Phone Number="12">480-775-7400</Phone>
     <Address NearestAirport="Sky Harbor">
       <Number>1221</Number>
       <Street>S Westwood</Street>
@@ -27,8 +27,8 @@
   
   <Hotel>
     <Name>Sheraton Grand Phoenix</Name>
-    <Phone Number="2">602-262-2500</Phone>
-    <Phone Number="3">800-325-3535</Phone>
+    <Phone Number="13">602-262-2500</Phone>
+    <Phone Number="13">800-325-3535</Phone>
     <Address NearestAirport="Sky Harbor">
       <Number>340</Number>
       <Street>N 3rd St</Street>
@@ -40,7 +40,7 @@
   
   <Hotel Rating="4.0">
     <Name>Hyatt Regency Scottsdale</Name>
-    <Phone Number="4">480-444-1234</Phone>
+    <Phone Number="14">480-444-1234</Phone>
     <Address NearestAirport="Scottsdale Airport">
       <Number>7500</Number>
       <Street>E Doubletree Ranch Rd</Street>
@@ -52,8 +52,8 @@
   
   <Hotel Rating="3.8">
     <Name>Marriott Tempe</Name>
-    <Phone Number="5">480-966-8000</Phone>
-    <Phone Number="6">888-236-2427</Phone>
+    <Phone Number="15">480-966-8000</Phone>
+    <Phone Number="15">888-236-2427</Phone>
     <Address NearestAirport="Sky Harbor">
       <Number>2101</Number>
       <Street>E Broadway Rd</Street>
@@ -65,7 +65,7 @@
   
   <Hotel Rating="4.3">
     <Name>JW Marriott Desert Ridge</Name>
-    <Phone Number="7">480-293-5000</Phone>
+    <Phone Number="16">480-293-5000</Phone>
     <Address NearestAirport="Sky Harbor">
       <Number>5350</Number>
       <Street>E Marriott Dr</Street>
@@ -77,8 +77,8 @@
   
   <Hotel>
     <Name>Embassy Suites Phoenix</Name>
-    <Phone Number="8">602-553-8000</Phone>
-    <Phone Number="9">800-362-2779</Phone>
+    <Phone Number="17">602-553-8000</Phone>
+    <Phone Number="17">800-362-2779</Phone>
     <Address NearestAirport="Sky Harbor">
       <Number>2630</Number>
       <Street>E Camelback Rd</Street>
@@ -90,7 +90,7 @@
   
   <Hotel Rating="4.1">
     <Name>Renaissance Phoenix</Name>
-    <Phone Number="10">602-333-0000</Phone>
+    <Phone Number="18">602-333-0000</Phone>
     <Address NearestAirport="Sky Harbor">
       <Number>50</Number>
       <Street>E Adams St</Street>
@@ -102,7 +102,7 @@
   
   <Hotel Rating="3.9">
     <Name>Hampton Inn Phoenix</Name>
-    <Phone Number="13">602-252-1212</Phone>
+    <Phone Number="19">602-252-1212</Phone>
     <Address NearestAirport="Sky Harbor">
       <Number>160</Number>
       <Street>W Clarendon Ave</Street>
@@ -114,8 +114,8 @@
   
   <Hotel>
     <Name>Fairmont Scottsdale</Name>
-    <Phone Number="14">480-585-4848</Phone>
-    <Phone Number="15">866-540-4495</Phone>
+    <Phone Number="20">480-585-4848</Phone>
+    <Phone Number="20">866-540-4495</Phone>
     <Address NearestAirport="Scottsdale Airport">
       <Number>7575</Number>
       <Street>E Princess Dr</Street>
@@ -127,7 +127,7 @@
   
   <Hotel Rating="4.4">
     <Name>The Camby Hotel</Name>
-    <Phone Number="16">602-468-0700</Phone>
+    <Phone Number="21">602-468-0700</Phone>
     <Address NearestAirport="Sky Harbor">
       <Number>2401</Number>
       <Street>E Camelback Rd</Street>
