@@ -15,6 +15,7 @@
                   </xs:sequence>
                 </xs:complexType>
               </xs:element>
+              <xs:element name="Number" type="xs:string"/>
               <xs:element name="Address">
                 <xs:complexType>
                   <xs:sequence>
