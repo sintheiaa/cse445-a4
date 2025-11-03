@@ -29,7 +29,7 @@
                 </xs:complexType>
               </xs:element>
             </xs:sequence>
-            <xs:attribute name="Rating" type="xs:decimal" use="optional"/>
+            <xs:attribute name="Rating" type="xs:decimal"/>
           </xs:complexType>
         </xs:element>
       </xs:sequence>
