@@ -11,7 +11,6 @@
       <Number>800-937-8461</Number>
     </Phone>
     <Address NearestAirport="Sky Harbor">
-      <Number>11</Number>
       <Street>E 7th St</Street>
       <City>Tempe</City>
       <State>AZ</State>
@@ -25,7 +24,6 @@
       <Number>602-252-1234</Number>
     </Phone>
     <Address NearestAirport="Sky Harbor">
-      <Number>122</Number>
       <Street>N 2nd St</Street>
       <City>Phoenix</City>
       <State>AZ</State>
@@ -33,13 +31,12 @@
     </Address>
   </Hotel>
 
-  <Hotel Rating="4.0">
+  <Hotel>
     <Name>Hilton Garden Inn</Name>
     <Phone>
       <Number>480-966-7031</Number>
     </Phone>
     <Address NearestAirport="Phoenix-Mesa Gateway">
-      <Number>2102</Number>
       <Street>E Rio Salado Pkwy</Street>
       <City>Tempe</City>
       <State>AZ</State>
@@ -53,7 +50,6 @@
       <Number>602-333-3333</Number>
     </Phone>
     <Address NearestAirport="Sky Harbor">
-      <Number>100</Number>
       <Street>N 1st St</Street>
       <City>Phoenix</City>
       <State>AZ</State>
@@ -67,7 +63,6 @@
       <Number>480-967-1441</Number>
     </Phone>
     <Address NearestAirport="Sky Harbor">
-      <Number>670</Number>
       <Street>N Scottsdale Rd</Street>
       <City>Tempe</City>
       <State>AZ</State>
@@ -75,13 +70,12 @@
     </Address>
   </Hotel>
 
-  <Hotel Rating="4.6">
+  <Hotel>
     <Name>Courtyard by Marriott</Name>
     <Phone>
       <Number>480-966-4300</Number>
     </Phone>
     <Address NearestAirport="Phoenix-Mesa Gateway">
-      <Number>601</Number>
       <Street>S Ash Ave</Street>
       <City>Tempe</City>
       <State>AZ</State>
@@ -95,7 +89,6 @@
       <Number>480-627-3200</Number>
     </Phone>
     <Address NearestAirport="Scottsdale Airport">
-      <Number>4949</Number>
       <Street>E Lincoln Dr</Street>
       <City>Scottsdale</City>
       <State>AZ</State>
@@ -103,46 +96,4 @@
     </Address>
   </Hotel>
 
-  <Hotel Rating="4.1">
-    <Name>Residence Inn</Name>
-    <Phone>
-      <Number>480-967-2300</Number>
-    </Phone>
-    <Address NearestAirport="Sky Harbor">
-      <Number>510</Number>
-      <Street>S Forest Ave</Street>
-      <City>Tempe</City>
-      <State>AZ</State>
-      <Zip>85281</Zip>
-    </Address>
-  </Hotel>
-
-  <Hotel Rating="4.0">
-    <Name>Embassy Suites</Name>
-    <Phone>
-      <Number>602-222-1111</Number>
-    </Phone>
-    <Address NearestAirport="Sky Harbor">
-      <Number>10</Number>
-      <Street>E Thomas Rd</Street>
-      <City>Phoenix</City>
-      <State>AZ</State>
-      <Zip>85012</Zip>
-    </Address>
-  </Hotel>
-
-  <Hotel Rating="3.9">
-    <Name>Holiday Inn Express</Name>
-    <Phone>
-      <Number>480-966-7202</Number>
-    </Phone>
-    <Address NearestAirport="Phoenix-Mesa Gateway">
-      <Number>1520</Number>
-      <Street>S 52nd St</Street>
-      <City>Tempe</City>
-      <State>AZ</State>
-      <Zip>85281</Zip>
-    </Address>
-  </Hotel>
-
-</Hotels>
+  <Hotel>
