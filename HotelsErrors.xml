@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+
 <Hotel Rating="4.2">
   <Name>Westin</Name>
   <Name>Westin Downtown</Name>
@@ -8,4 +8,5 @@
     <City>Tempe</City>
     <State>AZ</State>
     <Zip>85281</Zip>
+
   </Hotel>
