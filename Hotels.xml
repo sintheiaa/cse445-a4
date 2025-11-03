@@ -1,38 +1,139 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <xs:element name="Hotels">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element name="Hotel" maxOccurs="unbounded">
-          <xs:complexType>
-            <xs:sequence>
-              <xs:element name="Name" type="xs:string"/>
-              <xs:element name="Phone" maxOccurs="unbounded">
-                <xs:complexType>
-                  <xs:simpleContent>
-                    <xs:extension base="xs:string">
-                      <xs:attribute name="Number" type="xs:string" use="required"/>
-                    </xs:extension>
-                  </xs:simpleContent>
-                </xs:complexType>
-              </xs:element>
-              <xs:element name="Address">
-                <xs:complexType>
-                  <xs:sequence>
-                    <xs:element name="Number" type="xs:string"/>
-                    <xs:element name="Street" type="xs:string"/>
-                    <xs:element name="City" type="xs:string"/>
-                    <xs:element name="State" type="xs:string"/>
-                    <xs:element name="Zip" type="xs:string"/>
-                  </xs:sequence>
-                  <xs:attribute name="NearestAirport" type="xs:string" use="required"/>
-                </xs:complexType>
-              </xs:element>
-            </xs:sequence>
-            <xs:attribute name="Rating" type="xs:string"/>
-          </xs:complexType>
-        </xs:element>
-      </xs:sequence>
-    </xs:complexType>
-  </xs:element>
-</xs:schema>
+<Hotels>
+  <Hotel Rating="4.2">
+    <Name>Westin</Name>
+    <Phone Number="11">480-968-8885</Phone>
+    <Phone Number="12">800-937-8461</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>11</Number>
+      <Street>E 7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+  
+  <Hotel Rating="4.5">
+    <Name>Hilton Garden Inn</Name>
+    <Phone Number="1">480-775-7400</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>1221</Number>
+      <Street>S Westwood</Street>
+      <City>Mesa</City>
+      <State>AZ</State>
+      <Zip>85210</Zip>
+    </Address>
+  </Hotel>
+  
+  <Hotel>
+    <Name>Sheraton Grand Phoenix</Name>
+    <Phone Number="2">602-262-2500</Phone>
+    <Phone Number="3">800-325-3535</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>340</Number>
+      <Street>N 3rd St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85004</Zip>
+    </Address>
+  </Hotel>
+  
+  <Hotel Rating="4.0">
+    <Name>Hyatt Regency Scottsdale</Name>
+    <Phone Number="4">480-444-1234</Phone>
+    <Address NearestAirport="Scottsdale Airport">
+      <Number>7500</Number>
+      <Street>E Doubletree Ranch Rd</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85258</Zip>
+    </Address>
+  </Hotel>
+  
+  <Hotel Rating="3.8">
+    <Name>Marriott Tempe</Name>
+    <Phone Number="5">480-966-8000</Phone>
+    <Phone Number="6">888-236-2427</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>2101</Number>
+      <Street>E Broadway Rd</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85282</Zip>
+    </Address>
+  </Hotel>
+  
+  <Hotel Rating="4.3">
+    <Name>JW Marriott Desert Ridge</Name>
+    <Phone Number="7">480-293-5000</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>5350</Number>
+      <Street>E Marriott Dr</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85054</Zip>
+    </Address>
+  </Hotel>
+  
+  <Hotel>
+    <Name>Embassy Suites Phoenix</Name>
+    <Phone Number="8">602-553-8000</Phone>
+    <Phone Number="9">800-362-2779</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>2630</Number>
+      <Street>E Camelback Rd</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85016</Zip>
+    </Address>
+  </Hotel>
+  
+  <Hotel Rating="4.1">
+    <Name>Renaissance Phoenix</Name>
+    <Phone Number="10">602-333-0000</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>50</Number>
+      <Street>E Adams St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85004</Zip>
+    </Address>
+  </Hotel>
+  
+  <Hotel Rating="3.9">
+    <Name>Hampton Inn Phoenix</Name>
+    <Phone Number="13">602-252-1212</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>160</Number>
+      <Street>W Clarendon Ave</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85013</Zip>
+    </Address>
+  </Hotel>
+  
+  <Hotel>
+    <Name>Fairmont Scottsdale</Name>
+    <Phone Number="14">480-585-4848</Phone>
+    <Phone Number="15">866-540-4495</Phone>
+    <Address NearestAirport="Scottsdale Airport">
+      <Number>7575</Number>
+      <Street>E Princess Dr</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85255</Zip>
+    </Address>
+  </Hotel>
+  
+  <Hotel Rating="4.4">
+    <Name>The Camby Hotel</Name>
+    <Phone Number="16">602-468-0700</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>2401</Number>
+      <Street>E Camelback Rd</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85016</Zip>
+    </Address>
+  </Hotel>
+</Hotels>
