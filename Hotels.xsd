@@ -11,17 +11,14 @@
         </xsd:documentation>
     </xsd:annotation>
     
-    <!-- Root element -->
     <xsd:element name="Hotels" type="HotelsType"/>
     
-    <!-- Hotels container type -->
     <xsd:complexType name="HotelsType">
         <xsd:sequence>
             <xsd:element name="Hotel" type="HotelType" minOccurs="1" maxOccurs="unbounded"/>
         </xsd:sequence>
     </xsd:complexType>
     
-    <!-- Hotel type definition -->
     <xsd:complexType name="HotelType">
         <xsd:sequence>
             <xsd:element name="Name" type="xsd:string" minOccurs="1" maxOccurs="1"/>
@@ -31,7 +28,6 @@
         <xsd:attribute name="Rating" type="xsd:decimal" use="optional"/>
     </xsd:complexType>
     
-    <!-- Phone type definition -->
     <xsd:complexType name="PhoneType">
         <xsd:simpleContent>
             <xsd:extension base="xsd:string">
@@ -40,7 +36,6 @@
         </xsd:simpleContent>
     </xsd:complexType>
     
-    <!-- Address type definition -->
     <xsd:complexType name="AddressType">
         <xsd:sequence>
             <xsd:element name="Number" type="xsd:string" minOccurs="1" maxOccurs="1"/>
