@@ -1,131 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Hotels xmlns="http://venus.sod.asu.edu/WSRepository/xml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://venus.sod.asu.edu/WSRepository/xml Hotels.xsd">
-<Hotel Rating="4.2">
-<Name>Westin</Name>
-<Phone allowed="11">480-968-8885</Phone>
-<Phone>800-937-8461</Phone>
-<Address NearestAirport="Sky Harbor">
-<Number>11</Number>
-<Street>E 7th St</Street>
-<City>Tempe</City>
-<State>AZ</State>
-<Zip>85281</Zip>
-</Address>
-</Hotel>
-<Hotel Rating="4.5">
-<Name>Marriott Tempe</Name>
-<Phone>480-966-2000</Phone>
-<Phone>888-236-2427</Phone>
-<Address NearestAirport="Sky Harbor">
-<Number>2101</Number>
-<Street>E Broadway Rd</Street>
-<City>Tempe</City>
-<State>AZ</State>
-<Zip>85282</Zip>
-</Address>
-</Hotel>
-<Hotel>
-<Name>Hilton Phoenix Airport</Name>
-<Phone allowed="15">602-997-7979</Phone>
-<Address NearestAirport="Sky Harbor">
-<Number>2435</Number>
-<Street>S 47th St</Street>
-<City>Phoenix</City>
-<State>AZ</State>
-<Zip>85034</Zip>
-</Address>
-</Hotel>
-<Hotel Rating="4.3">
-<Name>Hyatt Regency Scottsdale</Name>
-<Phone>480-444-1234</Phone>
-<Phone>800-233-1234</Phone>
-<Address NearestAirport="Scottsdale Airport">
-<Number>7500</Number>
-<Street>E Doubletree Ranch Rd</Street>
-<City>Scottsdale</City>
-<State>AZ</State>
-<Zip>85258</Zip>
-</Address>
-</Hotel>
-<Hotel Rating="4.0">
-<Name>Renaissance Phoenix Downtown</Name>
-<Phone allowed="20">602-333-0000</Phone>
-<Phone>888-236-2427</Phone>
-<Address NearestAirport="Sky Harbor">
-<Number>50</Number>
-<Street>E Adams St</Street>
-<City>Phoenix</City>
-<State>AZ</State>
-<Zip>85004</Zip>
-</Address>
-</Hotel>
-<Hotel>
-<Name>Sheraton Phoenix Airport</Name>
-<Phone>480-967-6600</Phone>
-<Address NearestAirport="Sky Harbor">
-<Number>1600</Number>
-<Street>S 52nd St</Street>
-<City>Tempe</City>
-<State>AZ</State>
-<Zip>85281</Zip>
-</Address>
-</Hotel>
-<Hotel Rating="4.6">
-<Name>JW Marriott Desert Ridge</Name>
-<Phone allowed="25">480-293-5000</Phone>
-<Phone>877-622-3140</Phone>
-<Address NearestAirport="Scottsdale Airport">
-<Number>5350</Number>
-<Street>E Marriott Dr</Street>
-<City>Phoenix</City>
-<State>AZ</State>
-<Zip>85054</Zip>
-</Address>
-</Hotel>
-<Hotel Rating="3.9">
-<Name>Courtyard Tempe Downtown</Name>
-<Phone>480-966-2800</Phone>
-<Address NearestAirport="Sky Harbor">
-<Number>601</Number>
-<Street>S Ash Ave</Street>
-<City>Tempe</City>
-<State>AZ</State>
-<Zip>85281</Zip>
-</Address>
-</Hotel>
-<Hotel Rating="4.4">
-<Name>The Phoenician</Name>
-<Phone>480-941-8200</Phone>
-<Phone>800-888-8234</Phone>
-<Address NearestAirport="Scottsdale Airport">
-<Number>6000</Number>
-<Street>E Camelback Rd</Street>
-<City>Scottsdale</City>
-<State>AZ</State>
-<Zip>85251</Zip>
-</Address>
-</Hotel>
-<Hotel>
-<Name>Hampton Inn Phoenix Airport North</Name>
-<Phone allowed="30">602-453-2500</Phone>
-<Address NearestAirport="Sky Harbor">
-<Number>4234</Number>
-<Street>S 48th St</Street>
-<City>Phoenix</City>
-<State>AZ</State>
-<Zip>85040</Zip>
-</Address>
-</Hotel>
-<Hotel Rating="4.1">
-<Name>DoubleTree Phoenix Tempe</Name>
-<Phone>480-967-1441</Phone>
-<Phone>800-222-8733</Phone>
-<Address NearestAirport="Sky Harbor">
-<Number>2100</Number>
-<Street>S Priest Dr</Street>
-<City>Tempe</City>
-<State>AZ</State>
-<Zip>85282</Zip>
-</Address>
-</Hotel>
-</Hotels>
+<Hotels
+   xmlns="http://venus.sod.asu.edu/WSRepository/xml"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://venus.sod.asu.edu/WSRepository/xml Hotels.xsd">
+   <Hotel Rating="4.2">
+      <Name>Westin</Name>
+      <Phone allowed="11">480-968-8885</Phone>
+      <Phone>800-937-8461</Phone>
+      <Address NearestAirport="Sky Harbor">
+         <Number>11</Number>
+         <Street>E 7th St</Street>
+         <City>Tempe</City>
+         <State>AZ</State>
+         <Zip>85281</Zip>
+      </Address>
+   </Hotel>
+   <Hotel Rating="4.5">
+      <Name>Marriott Tempe</Name>
+      <Phone>480-966-2000</Phone>
+      <Phone>888-236-2427</Phone>
+      <Address NearestAirport="Sky Harbor">
+         <Number>2101</Number>
+         <Street>E Broadway Rd</Street>
+         <City>Tempe</City>
+         <State>AZ</State>
+         <Zip>85282</Zip>
+      </Address>
+   </Hotel>
+   <Hotel>
+      <Name>Hilton Phoenix Airport</Name>
+      <Phone allowed="15">602-997-7979</Phone>
+      <Address NearestAirport="Sky Harbor">
+         <Number>2435</Number>
+         <Street>S 47th St</Street>
+         <City>Phoenix</City>
+         <State>AZ</State>
+         <Zip>85034</Zip>
+      </Address>
+   </Hotel>
+   <Hotel Rating="4.3">
+      <Name>Hyatt Regency Scottsdale</Name>
+      <Phone>480-444-1234</Phone>
+      <Phone>800-233-1234</Phone>
+      <Address NearestAirport="Scottsdale Airport">
+         <Number>7500</Number>
+         <Street>E Doubletree Ranch Rd</Street>
+         <City>Scottsdale</City>
+         <State>AZ</State>
+         <Zip>85258</Zip>
+      </Address>
+   </Hotel>
+   <Hotel Rating="4.0">
+      <Name>Renaissance Phoenix Downtown</Name>
+      <Phone allowed="20">602-333-0000</Phone>
+      <Phone>888-236-2427</Phone>
+      <Address NearestAirport="Sky Harbor">
+         <Number>50</Number>
+         <Street>E Adams St</Street>
+         <City>Phoenix</City>
+         <State>AZ</State>
+         <Zip>85004</Zip>
+      </Address>
+   </Hotel>
+   <Hotel>
+      <Name>Sheraton Phoenix Airport</Name>
+      <Phone>480-967-6600</Phone>
+      <Address NearestAirport="Sky Harbor">
+         <Number>1600</Number>
+         <Street>S 52nd St</Street>
+         <City>Tempe</City>
+         <State>AZ</State>
+         <Zip>85281</Zip>
+      </Address>
+   </Hotel>
+   <Hotel Rating="4.6">
+      <Name>JW Marriott Desert Ridge</Name>
