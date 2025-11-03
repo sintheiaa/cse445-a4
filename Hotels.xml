@@ -1,4 +1,4 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
 <Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="Hotels.xsd">
 
@@ -134,4 +134,15 @@
   <Hotel Rating="3.9">
     <Name>Holiday Inn Express</Name>
     <Phone>
-      <Number>480-966-7
+      <Number>480-966-7202</Number>
+    </Phone>
+    <Address NearestAirport="Phoenix-Mesa Gateway">
+      <Number>1520</Number>
+      <Street>S 52nd St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+</Hotels>
