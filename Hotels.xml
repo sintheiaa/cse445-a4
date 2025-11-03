@@ -1,140 +1,128 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/sintheiaa/cse445-a4/main/Hotels.xsd">
-  <Hotel Rating="4.2">
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="Hotels.xsd">
+
+  <Hotel Rating="4.2" NearestAirport="Sky Harbor">
     <Name>Westin</Name>
-    <Phone Number="11">480-968-8885</Phone>
-    <Phone Number="11">800-937-8461</Phone>
-    <Address NearestAirport="Sky Harbor">
-      <Number>11</Number>
-      <Street>E 7th St</Street>
-      <City>Tempe</City>
-      <State>AZ</State>
-      <Zip>85281</Zip>
-    </Address>
+    <Phone>
+      <Number>480-968-8885</Number>
+    </Phone>
+    <Phone>
+      <Number>800-937-8461</Number>
+    </Phone>
+    <Number>11</Number>
+    <Street>E 7th St</Street>
+    <City>Tempe</City>
+    <State>AZ</State>
+    <Zip>85281</Zip>
   </Hotel>
-  
-  <Hotel Rating="4.5">
+
+  <Hotel Rating="4.5" NearestAirport="Sky Harbor">
+    <Name>Hyatt Regency</Name>
+    <Phone>
+      <Number>602-252-1234</Number>
+    </Phone>
+    <Number>122</Number>
+    <Street>N 2nd St</Street>
+    <City>Phoenix</City>
+    <State>AZ</State>
+    <Zip>85004</Zip>
+  </Hotel>
+
+  <Hotel Rating="4.0" NearestAirport="Phoenix-Mesa Gateway">
     <Name>Hilton Garden Inn</Name>
-    <Phone Number="12">480-775-7400</Phone>
-    <Address NearestAirport="Sky Harbor">
-      <Number>1221</Number>
-      <Street>S Westwood</Street>
-      <City>Mesa</City>
-      <State>AZ</State>
-      <Zip>85210</Zip>
-    </Address>
+    <Phone>
+      <Number>480-966-7031</Number>
+    </Phone>
+    <Number>2102</Number>
+    <Street>E Rio Salado Pkwy</Street>
+    <City>Tempe</City>
+    <State>AZ</State>
+    <Zip>85281</Zip>
   </Hotel>
-  
-  <Hotel>
-    <Name>Sheraton Grand Phoenix</Name>
-    <Phone Number="13">602-262-2500</Phone>
-    <Phone Number="13">800-325-3535</Phone>
-    <Address NearestAirport="Sky Harbor">
-      <Number>340</Number>
-      <Street>N 3rd St</Street>
-      <City>Phoenix</City>
-      <State>AZ</State>
-      <Zip>85004</Zip>
-    </Address>
+
+  <Hotel Rating="4.3" NearestAirport="Sky Harbor">
+    <Name>Marriott Downtown</Name>
+    <Phone>
+      <Number>602-333-3333</Number>
+    </Phone>
+    <Number>100</Number>
+    <Street>N 1st St</Street>
+    <City>Phoenix</City>
+    <State>AZ</State>
+    <Zip>85004</Zip>
   </Hotel>
-  
-  <Hotel Rating="4.0">
-    <Name>Hyatt Regency Scottsdale</Name>
-    <Phone Number="14">480-444-1234</Phone>
-    <Address NearestAirport="Scottsdale Airport">
-      <Number>7500</Number>
-      <Street>E Doubletree Ranch Rd</Street>
-      <City>Scottsdale</City>
-      <State>AZ</State>
-      <Zip>85258</Zip>
-    </Address>
+
+  <Hotel Rating="3.8" NearestAirport="Sky Harbor">
+    <Name>Best Western</Name>
+    <Phone>
+      <Number>480-967-1441</Number>
+    </Phone>
+    <Number>670</Number>
+    <Street>N Scottsdale Rd</Street>
+    <City>Tempe</City>
+    <State>AZ</State>
+    <Zip>85281</Zip>
   </Hotel>
-  
-  <Hotel Rating="3.8">
-    <Name>Marriott Tempe</Name>
-    <Phone Number="15">480-966-8000</Phone>
-    <Phone Number="15">888-236-2427</Phone>
-    <Address NearestAirport="Sky Harbor">
-      <Number>2101</Number>
-      <Street>E Broadway Rd</Street>
-      <City>Tempe</City>
-      <State>AZ</State>
-      <Zip>85282</Zip>
-    </Address>
+
+  <Hotel Rating="4.6" NearestAirport="Phoenix-Mesa Gateway">
+    <Name>Courtyard by Marriott</Name>
+    <Phone>
+      <Number>480-966-4300</Number>
+    </Phone>
+    <Number>601</Number>
+    <Street>S Ash Ave</Street>
+    <City>Tempe</City>
+    <State>AZ</State>
+    <Zip>85281</Zip>
   </Hotel>
-  
-  <Hotel Rating="4.3">
-    <Name>JW Marriott Desert Ridge</Name>
-    <Phone Number="16">480-293-5000</Phone>
-    <Address NearestAirport="Sky Harbor">
-      <Number>5350</Number>
-      <Street>E Marriott Dr</Street>
-      <City>Phoenix</City>
-      <State>AZ</State>
-      <Zip>85054</Zip>
-    </Address>
+
+  <Hotel Rating="4.7" NearestAirport="Scottsdale Airport">
+    <Name>Omni Scottsdale Resort</Name>
+    <Phone>
+      <Number>480-627-3200</Number>
+    </Phone>
+    <Number>4949</Number>
+    <Street>E Lincoln Dr</Street>
+    <City>Scottsdale</City>
+    <State>AZ</State>
+    <Zip>85253</Zip>
   </Hotel>
-  
-  <Hotel>
-    <Name>Embassy Suites Phoenix</Name>
-    <Phone Number="17">602-553-8000</Phone>
-    <Phone Number="17">800-362-2779</Phone>
-    <Address NearestAirport="Sky Harbor">
-      <Number>2630</Number>
-      <Street>E Camelback Rd</Street>
-      <City>Phoenix</City>
-      <State>AZ</State>
-      <Zip>85016</Zip>
-    </Address>
+
+  <Hotel Rating="4.1" NearestAirport="Sky Harbor">
+    <Name>Residence Inn</Name>
+    <Phone>
+      <Number>480-967-2300</Number>
+    </Phone>
+    <Number>510</Number>
+    <Street>S Forest Ave</Street>
+    <City>Tempe</City>
+    <State>AZ</State>
+    <Zip>85281</Zip>
   </Hotel>
-  
-  <Hotel Rating="4.1">
-    <Name>Renaissance Phoenix</Name>
-    <Phone Number="18">602-333-0000</Phone>
-    <Address NearestAirport="Sky Harbor">
-      <Number>50</Number>
-      <Street>E Adams St</Street>
-      <City>Phoenix</City>
-      <State>AZ</State>
-      <Zip>85004</Zip>
-    </Address>
+
+  <Hotel Rating="4.0" NearestAirport="Sky Harbor">
+    <Name>Embassy Suites</Name>
+    <Phone>
+      <Number>602-222-1111</Number>
+    </Phone>
+    <Number>10</Number>
+    <Street>E Thomas Rd</Street>
+    <City>Phoenix</City>
+    <State>AZ</State>
+    <Zip>85012</Zip>
   </Hotel>
-  
-  <Hotel Rating="3.9">
-    <Name>Hampton Inn Phoenix</Name>
-    <Phone Number="19">602-252-1212</Phone>
-    <Address NearestAirport="Sky Harbor">
-      <Number>160</Number>
-      <Street>W Clarendon Ave</Street>
-      <City>Phoenix</City>
-      <State>AZ</State>
-      <Zip>85013</Zip>
-    </Address>
+
+  <Hotel Rating="3.9" NearestAirport="Phoenix-Mesa Gateway">
+    <Name>Holiday Inn Express</Name>
+    <Phone>
+      <Number>480-966-7202</Number>
+    </Phone>
+    <Number>1520</Number>
+    <Street>S 52nd St</Street>
+    <City>Tempe</City>
+    <State>AZ</State>
+    <Zip>85281</Zip>
   </Hotel>
-  
-  <Hotel>
-    <Name>Fairmont Scottsdale</Name>
-    <Phone Number="20">480-585-4848</Phone>
-    <Phone Number="20">866-540-4495</Phone>
-    <Address NearestAirport="Scottsdale Airport">
-      <Number>7575</Number>
-      <Street>E Princess Dr</Street>
-      <City>Scottsdale</City>
-      <State>AZ</State>
-      <Zip>85255</Zip>
-    </Address>
-  </Hotel>
-  
-  <Hotel Rating="4.4">
-    <Name>The Camby Hotel</Name>
-    <Phone Number="21">602-468-0700</Phone>
-    <Address NearestAirport="Sky Harbor">
-      <Number>2401</Number>
-      <Street>E Camelback Rd</Street>
-      <City>Phoenix</City>
-      <State>AZ</State>
-      <Zip>85016</Zip>
-    </Address>
-  </Hotel>
+
 </Hotels>
