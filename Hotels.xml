@@ -1,126 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:noNamespaceSchemaLocation="Hotels.xsd">
-
-  <Hotel Rating="4.2">
-    <Name>Westin</Name>
-    <Phone><Number>480-968-8885</Number></Phone>
-    <Phone><Number>800-937-8461</Number></Phone>
-    <Number>11</Number>
-    <Address NearestAirport="Sky Harbor">
-      <Street>E 7th St</Street>
-      <City>Tempe</City>
-      <State>AZ</State>
-      <Zip>85281</Zip>
-    </Address>
-  </Hotel>
-
-  <Hotel Rating="4.5">
-    <Name>Hyatt Regency</Name>
-    <Phone><Number>602-252-1234</Number></Phone>
-    <Number>122</Number>
-    <Address NearestAirport="Sky Harbor">
-      <Street>N 2nd St</Street>
-      <City>Phoenix</City>
-      <State>AZ</State>
-      <Zip>85004</Zip>
-    </Address>
-  </Hotel>
-
-  <Hotel Rating="4.0">
-    <Name>Hilton Garden Inn</Name>
-    <Phone><Number>480-966-7031</Number></Phone>
-    <Number>2102</Number>
-    <Address NearestAirport="Phoenix-Mesa Gateway">
-      <Street>E Rio Salado Pkwy</Street>
-      <City>Tempe</City>
-      <State>AZ</State>
-      <Zip>85281</Zip>
-    </Address>
-  </Hotel>
-
-  <Hotel Rating="4.3">
-    <Name>Marriott Downtown</Name>
-    <Phone><Number>602-333-3333</Number></Phone>
-    <Number>100</Number>
-    <Address NearestAirport="Sky Harbor">
-      <Street>N 1st St</Street>
-      <City>Phoenix</City>
-      <State>AZ</State>
-      <Zip>85004</Zip>
-    </Address>
-  </Hotel>
-
-  <Hotel Rating="3.8">
-    <Name>Best Western</Name>
-    <Phone><Number>480-967-1441</Number></Phone>
-    <Number>670</Number>
-    <Address NearestAirport="Sky Harbor">
-      <Street>N Scottsdale Rd</Street>
-      <City>Tempe</City>
-      <State>AZ</State>
-      <Zip>85281</Zip>
-    </Address>
-  </Hotel>
-
-  <Hotel Rating="4.6">
-    <Name>Courtyard by Marriott</Name>
-    <Phone><Number>480-966-4300</Number></Phone>
-    <Number>601</Number>
-    <Address NearestAirport="Phoenix-Mesa Gateway">
-      <Street>S Ash Ave</Street>
-      <City>Tempe</City>
-      <State>AZ</State>
-      <Zip>85281</Zip>
-    </Address>
-  </Hotel>
-
-  <Hotel Rating="4.7">
-    <Name>Omni Scottsdale Resort</Name>
-    <Phone><Number>480-627-3200</Number></Phone>
-    <Number>4949</Number>
-    <Address NearestAirport="Scottsdale Airport">
-      <Street>E Lincoln Dr</Street>
-      <City>Scottsdale</City>
-      <State>AZ</State>
-      <Zip>85253</Zip>
-    </Address>
-  </Hotel>
-
-  <Hotel Rating="4.1">
-    <Name>Residence Inn</Name>
-    <Phone><Number>480-967-2300</Number></Phone>
-    <Number>510</Number>
-    <Address NearestAirport="Sky Harbor">
-      <Street>S Forest Ave</Street>
-      <City>Tempe</City>
-      <State>AZ</State>
-      <Zip>85281</Zip>
-    </Address>
-  </Hotel>
-
-  <Hotel Rating="4.0">
-    <Name>Embassy Suites</Name>
-    <Phone><Number>602-222-1111</Number></Phone>
-    <Number>10</Number>
-    <Address NearestAirport="Sky Harbor">
-      <Street>E Thomas Rd</Street>
-      <City>Phoenix</City>
-      <State>AZ</State>
-      <Zip>85012</Zip>
-    </Address>
-  </Hotel>
-
-  <Hotel Rating="3.9">
-    <Name>Holiday Inn Express</Name>
-    <Phone><Number>480-966-7202</Number></Phone>
-    <Number>1520</Number>
-    <Address NearestAirport="Phoenix-Mesa Gateway">
-      <Street>S 52nd St</Street>
-      <City>Tempe</City>
-      <State>AZ</State>
-      <Zip>85281</Zip>
-    </Address>
-  </Hotel>
-
-</Hotels>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Hotels">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Hotel" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Name" type="xs:string"/>
+              <xs:element name="Phone" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="Number" type="xs:string" use="required"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Address">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Number" type="xs:string"/>
+                    <xs:element name="Street" type="xs:string"/>
+                    <xs:element name="City" type="xs:string"/>
+                    <xs:element name="State" type="xs:string"/>
+                    <xs:element name="Zip" type="xs:string"/>
+                  </xs:sequence>
+                  <xs:attribute name="NearestAirport" type="xs:string" use="required"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="Rating" type="xs:string"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
