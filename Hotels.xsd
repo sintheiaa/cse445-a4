@@ -1,50 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-    xmlns="http://tempuri.org/Hotels.xsd"
-    targetNamespace="http://tempuri.org/Hotels.xsd"
-    elementFormDefault="qualified"
-    attributeFormDefault="unqualified">
-    
-    <xsd:annotation>
-        <xsd:documentation xml:lang="en">
-            Hotels Directory XML Schema
-        </xsd:documentation>
-    </xsd:annotation>
-    
-    <xsd:element name="Hotels" type="HotelsType"/>
-    
-    <xsd:complexType name="HotelsType">
-        <xsd:sequence>
-            <xsd:element name="Hotel" type="HotelType" minOccurs="1" maxOccurs="unbounded"/>
-        </xsd:sequence>
-    </xsd:complexType>
-    
-    <xsd:complexType name="HotelType">
-        <xsd:sequence>
-            <xsd:element name="Name" type="xsd:string" minOccurs="1" maxOccurs="1"/>
-            <xsd:element name="Phone" type="PhoneType" minOccurs="1" maxOccurs="unbounded"/>
-            <xsd:element name="Address" type="AddressType" minOccurs="1" maxOccurs="1"/>
-        </xsd:sequence>
-        <xsd:attribute name="Rating" type="xsd:decimal" use="optional"/>
-    </xsd:complexType>
-    
-    <xsd:complexType name="PhoneType">
-        <xsd:simpleContent>
-            <xsd:extension base="xsd:string">
-                <xsd:attribute name="allowed" type="xsd:positiveInteger" use="optional"/>
-            </xsd:extension>
-        </xsd:simpleContent>
-    </xsd:complexType>
-    
-    <xsd:complexType name="AddressType">
-        <xsd:sequence>
-            <xsd:element name="Number" type="xsd:string" minOccurs="1" maxOccurs="1"/>
-            <xsd:element name="Street" type="xsd:string" minOccurs="1" maxOccurs="1"/>
-            <xsd:element name="City" type="xsd:string" minOccurs="1" maxOccurs="1"/>
-            <xsd:element name="State" type="xsd:string" minOccurs="1" maxOccurs="1"/>
-            <xsd:element name="Zip" type="xsd:string" minOccurs="1" maxOccurs="1"/>
-        </xsd:sequence>
-        <xsd:attribute name="NearestAirport" type="xsd:string" use="required"/>
-    </xsd:complexType>
-    
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://venus.sod.asu.edu/WSRepository/xml" targetNamespace="http://venus.sod.asu.edu/WSRepository/xml" elementFormDefault="qualified" attributeFormDefault="unqualified">
+<xsd:annotation>
+<xsd:documentation xml:lang="en"> Hotels Directory Schema </xsd:documentation>
+</xsd:annotation>
+<xsd:element name="Hotels" type="HotelsType"/>
+<xsd:complexType name="HotelsType">
+<xsd:sequence>
+<xsd:element name="Hotel" type="HotelDetails" minOccurs="1" maxOccurs="unbounded"/>
+</xsd:sequence>
+</xsd:complexType>
+<xsd:complexType name="HotelDetails">
+<xsd:sequence>
+<xsd:element name="Name" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+<xsd:element name="Phone" type="PhoneDetails" minOccurs="1" maxOccurs="unbounded"/>
+<xsd:element name="Address" type="AddressDetails" minOccurs="1" maxOccurs="1"/>
+</xsd:sequence>
+<xsd:attribute name="Rating" type="xsd:decimal" use="optional"/>
+</xsd:complexType>
+<xsd:complexType name="PhoneDetails">
+<xsd:simpleContent>
+<xsd:extension base="xsd:string">
+<xsd:attribute name="allowed" type="xsd:int" use="optional"/>
+</xsd:extension>
+</xsd:simpleContent>
+</xsd:complexType>
+<xsd:complexType name="AddressDetails">
+<xsd:sequence>
+<xsd:element name="Number" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+<xsd:element name="Street" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+<xsd:element name="City" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+<xsd:element name="State" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+<xsd:element name="Zip" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+</xsd:sequence>
+<xsd:attribute name="NearestAirport" type="xsd:string" use="required"/>
+</xsd:complexType>
 </xsd:schema>
